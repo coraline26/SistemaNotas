@@ -1,5 +1,5 @@
-function restar(a,b){
-    return a-b;
-}
+const{
+    mostrarAlumnos
+} = require("./controllers/alumnoController");
 
-console.log("Resultado: ",restar(10,5));
+mostrarAlumnos();
